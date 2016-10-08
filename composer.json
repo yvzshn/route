@@ -1,0 +1,21 @@
+{
+    "name": "yvzshn/router",
+    "type": "library",
+    "description": "simple router class for php",
+    "keywords": ["php","router","route","simple"],
+    "homepage": "https://github.com/yvzshn/route",
+    "license": "MIT",
+        "authors": [{
+            "name": "Yavuz Şahin",
+            "email": "yavuz.sahin@wimtech.net",
+            "homepage": "http://www.yvzshn.com"
+        }],
+        "require": {
+            "php": ">=5.4.0"
+        },
+    "autoload": {
+        "psr-4": {
+            "yvz\\": "src"
+        }
+    }
+}
